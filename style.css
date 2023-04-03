@@ -1,0 +1,34 @@
+/* Add the Segment color scheme, fonts, and other styling here */
+
+body {
+    font-family: archivo;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    /* Add the Segment background color here */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+pre {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
